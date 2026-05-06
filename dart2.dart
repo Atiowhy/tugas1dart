@@ -90,13 +90,6 @@ void main() {
     // nilai rata rata
     double nilaiRataRata = (nilaiUts + nilaiUas) / 2;
 
-    // syarat nilaiRataRata
-    nilaiRataRata >= 70;
-    // syarat minimal kehadiran
-    nilaiKehadiran >= 75;
-    // uas atau uts tidak boleh dibawah 60
-    nilaiUts >= 60 && nilaiUas >= 60;
-
     // cekNilai
     bool cekNilai = nilaiRataRata >= 70;
     bool cekKehadiran = nilaiKehadiran >= 75;
