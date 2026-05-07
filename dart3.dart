@@ -1,5 +1,3 @@
-import "dart:io";
-
 void main() {
   // menampilkan bilangan ganjil
   for (int i = 1; i <= 20; i++) {
@@ -13,7 +11,7 @@ void main() {
 
   // mencetak karakter bintang sebanyak 5
   for (int i = 1; i <= 5; i++) {
-    stdout.write("*");
+    print("*");
   }
   print(" ");
 
