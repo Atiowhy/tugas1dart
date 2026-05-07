@@ -66,7 +66,6 @@
 
 // menggunakan stdout
 // cara kedua
-
 import 'dart:io';
 
 void main() {
@@ -89,6 +88,7 @@ void main() {
 
     // nilai rata rata
     double nilaiRataRata = (nilaiUts + nilaiUas) / 2;
+    // double nilaiRataRata = (nilaiUts + nilaiUas) / 2;
 
     // cekNilai
     bool cekNilai = nilaiRataRata >= 70;
